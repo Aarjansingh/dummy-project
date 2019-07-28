@@ -1,0 +1,34 @@
+//22(a)Wap to demonstrate function Overriding:
+#include<iostream>
+using namespace std;
+class Father
+{
+	public:
+		void property()
+		{
+			cout<<"All of my properties will be given to my child"<<endl;
+			
+		}
+void marriage()
+{
+	cout<<"Child should do arrange marriage"<<endl;
+	
+}
+};
+class child:public Father
+{
+	public:
+		void marriage()
+		{
+			cout<<"Child should do love marriage"<<endl;
+			
+		}
+};
+int main()
+{
+child obj;
+obj.property();
+obj.marriage();
+obj.Father::marriage();
+
+}
