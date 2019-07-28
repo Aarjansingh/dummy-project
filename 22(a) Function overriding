@@ -32,3 +32,6 @@ obj.marriage();
 obj.Father::marriage();
 
 }
+//B)Wap considering  a class names 'Shape' having a member function'float area()'. Now derive three classes ,'rectangle' and 'circle'from 'shape' class and override float area()' function in each chil class.
+
+
